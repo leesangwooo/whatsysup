@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { createPoll } from '../util/APIUtils';
+import { createPoll, captureUname } from '../util/APIUtils';
 import { MAX_CHOICES, POLL_QUESTION_MAX_LENGTH, POLL_CHOICE_MAX_LENGTH } from '../constants';
 import './NewPoll.css';  
-import { Form, Input, Button, Icon, Select, Col, notification } from 'antd';
+import { Form, Input, Button, Icon, Select, Col, notification, Tabs } from 'antd';
 const Option = Select.Option;
 const FormItem = Form.Item;
+const TabPane = Tabs.TabPane;
 const { TextArea } = Input
 
 class NewPoll extends Component {
@@ -32,6 +33,13 @@ class NewPoll extends Component {
         this.handlePollDaysChange = this.handlePollDaysChange.bind(this);
         this.handlePollHoursChange = this.handlePollHoursChange.bind(this);
         this.isFormInvalid = this.isFormInvalid.bind(this);
+    }
+
+
+    handleCapture(event) {
+        const uname = captureUname();
+        uname.then(response => console.log(response) )
+
     }
 
     addChoice(event) {
@@ -186,47 +194,60 @@ class NewPoll extends Component {
                             value = {this.state.question.text}
                             onChange = {this.handleQuestionChange} />
                         </FormItem>
-                        {choiceViews}
-                        <FormItem className="poll-form-row">
-                            <Button type="dashed" onClick={this.addChoice} disabled={this.state.choices.length === MAX_CHOICES}>
-                                <Icon type="plus" /> Add a choice
-                            </Button>
-                        </FormItem>
-                        <FormItem className="poll-form-row">
-                            <Col xs={24} sm={4}>
-                                Poll length: 
-                            </Col>
-                            <Col xs={24} sm={20}>    
+
+                        <Tabs defaultActiveKey="2">
+                            <TabPane tab={<span><Icon type="apple" />POLL</span>} key="1">
+                                {choiceViews}
+                                <FormItem className="poll-form-row">
+                                    <Button type="dashed" onClick={this.addChoice} disabled={this.state.choices.length === MAX_CHOICES}>
+                                        <Icon type="plus" /> Add a choice
+                                    </Button>
+                                </FormItem>
+                                <FormItem className="poll-form-row">
+                                    <Col xs={24} sm={4}>
+                                        Poll length:
+                                    </Col>
+                                    <Col xs={24} sm={20}>
                                 <span style = {{ marginRight: '18px' }}>
-                                    <Select 
+                                    <Select
                                         name="days"
-                                        defaultValue="1" 
+                                        defaultValue="1"
                                         onChange={this.handlePollDaysChange}
                                         value={this.state.pollLength.days}
                                         style={{ width: 60 }} >
                                         {
-                                            Array.from(Array(8).keys()).map(i => 
-                                                <Option key={i}>{i}</Option>                                        
+                                            Array.from(Array(8).keys()).map(i =>
+                                                <Option key={i}>{i}</Option>
                                             )
                                         }
                                     </Select> &nbsp;Days
                                 </span>
-                                <span>
-                                    <Select 
+                                        <span>
+                                    <Select
                                         name="hours"
-                                        defaultValue="0" 
+                                        defaultValue="0"
                                         onChange={this.handlePollHoursChange}
                                         value={this.state.pollLength.hours}
                                         style={{ width: 60 }} >
                                         {
-                                            Array.from(Array(24).keys()).map(i => 
-                                                <Option key={i}>{i}</Option>                                        
+                                            Array.from(Array(24).keys()).map(i =>
+                                                <Option key={i}>{i}</Option>
                                             )
                                         }
                                     </Select> &nbsp;Hours
                                 </span>
-                            </Col>
-                        </FormItem>
+                                    </Col>
+                                </FormItem>
+                            </TabPane>
+
+                            <TabPane tab={<span><Icon type="android" />ENV</span>} key="2">
+                                시스템 모니터링
+                                <Button type="dashed" onClick={this.handleCapture} >
+                                    <Icon type="scan" /> Capture
+                                </Button>
+                            </TabPane>
+                        </Tabs>,
+
                         <FormItem className="poll-form-row">
                             <Button type="primary" 
                                 htmlType="submit" 

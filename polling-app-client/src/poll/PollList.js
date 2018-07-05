@@ -8,6 +8,7 @@ import { POLL_LIST_SIZE } from '../constants';
 import { withRouter } from 'react-router-dom';
 import './PollList.css';
 
+
 class PollList extends Component {
     constructor(props) {
         super(props);

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './Poll.css';
-import { Avatar, Icon } from 'antd';
+import { Avatar, Icon, Tabs } from 'antd';
 import { Link } from 'react-router-dom';
 import { getAvatarColor } from '../util/Colors';
 import { formatDateTime } from '../util/Helpers';
 
 import { Radio, Button } from 'antd';
 const RadioGroup = Radio.Group;
+const TabPane = Tabs.TabPane;
 
 class Poll extends Component {
     calculatePercentage = (choice) => {
@@ -96,6 +97,16 @@ class Poll extends Component {
                     <div className="poll-question">
                         {this.props.poll.question}
                     </div>
+                </div>
+                <div>
+                    <Tabs defaultActiveKey="2">
+                        <TabPane tab={<span><Icon type="apple" />ENV</span>} key="1">
+                            환경변수 설정값
+                        </TabPane>
+                        <TabPane tab={<span><Icon type="android" />SYS</span>} key="2">
+                            시스템 모니터링
+                        </TabPane>
+                    </Tabs>,
                 </div>
                 <div className="poll-choices">
                     <RadioGroup 

@@ -1,4 +1,8 @@
+
 import { API_BASE_URL, POLL_LIST_SIZE, ACCESS_TOKEN } from '../constants';
+
+var exec = require("child_process").exec;
+
 
 const request = (options) => {
     const headers = new Headers({
@@ -22,6 +26,21 @@ const request = (options) => {
         })
     );
 };
+
+export function captureUname() {
+    console.log(exec)
+    exec('echo "The \\$HOME variable is $HOME"', (err, stdout, stderr) => {
+        if (err) {
+            console.error(err);
+            return;
+        }
+        console.log(stdout);
+    });
+    return request({
+        url: API_BASE_URL + "/envs/uname",
+        method: 'GET'
+    })
+}
 
 export function getAllPolls(page, size) {
     page = page || 0;
