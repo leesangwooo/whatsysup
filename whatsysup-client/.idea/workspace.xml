@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f975d0b-d626-4d23-af74-1bd488a8122d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/config-overrides.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/public/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/app/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/app/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/AppHeader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/AppHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/LoadingIndicator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/NotFound.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/NotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/ServerError.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/common/ServerError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/components/Charts/AntTimeline.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/components/Charts/AntTimeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/components/Charts/CpuTopTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/components/Charts/JStackTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/components/Charts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/components/CustomTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/constants/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/poll.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/poll/NewPoll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/poll/NewPoll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/poll/Poll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/poll/Poll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/poll/PollList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/poll/PollList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/user/login/Login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/user/login/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/user/profile/Profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/user/profile/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/user/signup/Signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/user/signup/Signup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/util/APIUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/util/Colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/util/Helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/src/util/ModelMappers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-client/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/java/whatsysup/PollsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/db/migration/V1__schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/db/migration/V2__default_roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/default-roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/static/css/main.91ddec36.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/static/css/main.91ddec36.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/static/js/main.cf1945d2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/static/js/main.cf1945d2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/main/resources/static/static/media/poll.1bc024be.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../polling-app-server/src/test/java/com/example/polls/PollsApplicationTests.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/util/Exec.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
+        <option value="$PROJECT_DIR$/config/webpackDevServer.config.js" />
+        <option value="$PROJECT_DIR$/config-overrides.js" />
+        <option value="$PROJECT_DIR$/src/components/TimeseriesChart.js" />
+        <option value="$PROJECT_DIR$/src/components/Charts/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/Charts/CustomTimeseriesChart.js" />
+        <option value="$PROJECT_DIR$/src/models/systems.js" />
+        <option value="$PROJECT_DIR$/src/server/ExpressFrame.js" />
+        <option value="$PROJECT_DIR$/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/src/db/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Charts/Charts.css" />
+        <option value="$PROJECT_DIR$/src/util/APIUtils.js" />
+        <option value="$PROJECT_DIR$/.prettierrc" />
+        <option value="$PROJECT_DIR$/src/components/Charts/AntTimeline.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/Charts/CustomStackTree.js" />
+        <option value="$PROJECT_DIR$/src/components/Charts/CustomTimeline.js" />
+        <option value="$PROJECT_DIR$/src/util/ModelMappers.js" />
+        <option value="$PROJECT_DIR$/src/util/Helpers.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/poll/Poll.css" />
+        <option value="$PROJECT_DIR$/src/poll/NewPoll.css" />
+        <option value="$PROJECT_DIR$/src/constants/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/src/components/CustomTag.js" />
+        <option value="$PROJECT_DIR$/src/components/Charts/CpuTopTable.js" />
+        <option value="$PROJECT_DIR$/src/user/login/Login.js" />
+        <option value="$PROJECT_DIR$/src/user/signup/Signup.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/user/profile/Profile.js" />
+        <option value="$PROJECT_DIR$/src/components/Charts/JStackTree.js" />
+        <option value="$PROJECT_DIR$/src/components/Charts/AntTimeline.js" />
+        <option value="$PROJECT_DIR$/src/app/App.js" />
+        <option value="$PROJECT_DIR$/src/poll/PollList.js" />
+        <option value="$PROJECT_DIR$/src/common/AppHeader.js" />
+        <option value="$PROJECT_DIR$/src/poll/Poll.js" />
+        <option value="$PROJECT_DIR$/src/components/Charts/index.js" />
+        <option value="$PROJECT_DIR$/src/poll/NewPoll.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="polling-app-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polling-app-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polling-app-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polling-app-client" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polling-app-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polling-app-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Charts/index.js" working-dir="$PROJECT_DIR$/src/components/Charts" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f975d0b-d626-4d23-af74-1bd488a8122d" name="Default" comment="" />
+      <created>1530683892887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530683892887</updated>
+      <workItem from="1530683894917" duration="8449000" />
+      <workItem from="1530702274562" duration="929000" />
+      <workItem from="1530717481508" duration="693000" />
+      <workItem from="1530756693537" duration="3798000" />
+      <workItem from="1530761060238" duration="58000" />
+      <workItem from="1530761121931" duration="2768000" />
+      <workItem from="1530839486279" duration="3000" />
+      <workItem from="1530863407592" duration="800000" />
+      <workItem from="1530864351931" duration="2858000" />
+      <workItem from="1531049728654" duration="24664000" />
+      <workItem from="1531281877586" duration="33066000" />
+      <workItem from="1531461191464" duration="12437000" />
+      <workItem from="1531544802191" duration="33151000" />
+      <workItem from="1531624234839" duration="20458000" />
+      <workItem from="1531752293017" duration="20362000" />
+      <workItem from="1531816490088" duration="7138000" />
+      <workItem from="1531884247112" duration="1102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="158939000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18604651" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32880098" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29973823" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39925835" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32880098" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32880098" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/ant-design-pro/lib/Charts/MiniArea/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3073" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ant-design-pro/lib/Charts/MiniArea/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ant-design-pro/lib/Charts/TimelineChart/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2411">
+          <caret line="108" column="38" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ant-design-pro/lib/Charts/autoHeight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bizcharts/typings/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="256" column="25" selection-start-line="256" selection-start-column="24" selection-end-line="256" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/models/systems.js" />
+    <entry file="file://$PROJECT_DIR$/src/db/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/util/ModelMappers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/취업준비/whaTapLabs_resume_이상우_소프트웨어개발자.pages">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poll/Poll.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4278">
+          <caret line="186" column="21" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/APIUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/AppHeader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/NotFound.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/NotFound.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/PrivateRoute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/ServerError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Charts/AntTimeline.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/LoadingIndicator.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poll/NewPoll.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomTag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/login/Login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/profile/Profile.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Charts/CpuTopTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poll/PollList.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Colors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poll.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Charts/JStackTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="135" column="23" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Charts/AntTimeline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="85" column="63" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/signup/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/profile/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/AppHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2162">
+          <caret line="110" column="42" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poll/PollList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poll/Poll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="124" column="55" selection-start-line="124" selection-start-column="55" selection-end-line="124" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#285#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Charts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-35061" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poll/NewPoll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="298" column="57" selection-start-line="298" selection-start-column="57" selection-end-line="298" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
